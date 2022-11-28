@@ -9,8 +9,8 @@ def printlog(logfile, search_word):
     index = logdata.find(search_word)
 
     if index >= 0 :
-        print "-" * 70
-        print "Log file : ", logfile
-        print "Find this word : ", search_word
-        print index
-        print "-" * 70
+        print ("-" * 70)
+        print ("Log file : ", logfile)
+        print ("Find this word : ", search_word)
+        print (index)
+        print ("-" * 70)
